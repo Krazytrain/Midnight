@@ -10,7 +10,6 @@ You can also download the file which gives you more options to edit the theme in
 @import url('https://krazytrain.github.io/Midnight/Midnight-Default.css');
 ```
 ![alt text](https://i.postimg.cc/TPDGRZS5/midnight-main.png)
-![alt text](https://i.postimg.cc/nzmLPsZ5/vencord-main.png)
 ## FAQ
 #### Does this work with Better Discord and Vencord?
 Yes this theme works with both!
