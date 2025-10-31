@@ -6,6 +6,9 @@
     --chat-status-icon-size: 100%;
 }
 
+.root__6c5a1{
+  display: none;
+}
 
 /* desktop & web */
 path:is([d^="M4 2.5c-1.103 0-2 .897-2 2v11c0 1.104.897 2"],[d^="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48"]) {
