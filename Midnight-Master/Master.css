@@ -1,38 +1,24 @@
+@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Master.css');
+:root { 
+     --theme-name: 'Midnight';
 
-/*==================================================
-=                     Master CSS                   =
+/*=================================================
+=                                                 =
+=                  Color Options                  =
+=                                                 =
 ==================================================*/
-@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Theme.css');
-/*==================================================
-=                    Addons Links                  =
-==================================================*/
-@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Addons-Links.css');
-/*==================================================
-=                    Bug Fixes                     =
-==================================================*/
-@import url('https://krazytrain.github.io/Midnight/Midnight-Master/Bug Fixes.css');
 
-	/* Version Number */
-:root {
-    --version: ' v2.0';
-}
-/* top corner title */
-[class^='wordmarkWindows'] {
-    padding: 4px 0px 0px 20px;
-}
-[class^='wordmarkWindows'] > svg {
-	display: none;
-}
-[class^='wordmarkWindows']::after {
-	content: var(--theme-name)  var(--version);
-	display: block;
-	position: relative;
-	height: 16px;
-	line-height: 16px;
-	font-family: var(--font);
-	font-size: 13px;
-	font-weight: 900;
-	color: var(--text-5);
-	transform: scaleX(1.2);
-	margin-left: 6px;
-}
+    /* Message indicator colors */
+    --indicator-unread-border: hsla(var(--plum-10-hsl)); /* Border of unread */
+    --indicator-unread-background: hsla(var(--plum-10-hsl)/0.25); /* Background of unread */
+    --indicator-unread-hover-background: hsla(var(--plum-10-hsl)/0.35); /* Hover background of unread */
+    --indicator-unread-mention-border: hsl(var(--red-400-hsl)); /* Border of mention */
+    --indicator-unread-mention-background: hsla(var(--red-400-hsl)/0.25); /* Background of mention */
+    --indicator-unread-mention-hover-background: hsla(var(--red-400-hsl)/0.35); /* Hover background of mention */
+    --indicator-selected-border: hsla(var(--blue-300-hsl)); /* Border of selected */
+    --indicator-selected-background: hsla(var(--blue-300-hsl)/0.25); /* Background of selected */
+    --indicator-selected-hover-background: hsla(var(--blue-300-hsl)/0.35); /* Hover background of selected */
+    --indicator-connected-border: hsla(var(--green-300-hsl)); /* Border of connected voice channel */
+    --indicator-connected-background: hsla(var(--green-300-hsl)/0.15); /* Background of connected voice channel */
+    --indicator-connected-hover-background: hsla(var(--green-300-hsl)/0.25); /* Hover backgroundd of connected voice channel */
+ }
