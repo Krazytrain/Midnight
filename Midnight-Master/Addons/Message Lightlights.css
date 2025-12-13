@@ -69,7 +69,7 @@
 
 /* Darker Hightlights */
 .theme-darker.visual-refresh .mentioned__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 10%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 10%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -77,7 +77,7 @@
 .theme-darker.visual-refresh.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
 .theme-darker.visual-refresh.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
 .theme-darker.visual-refresh.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 7%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 7%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -132,7 +132,7 @@
 
 /* Midnight Hightlights */
 .theme-midnight.visual-refresh .mentioned__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 7%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 7%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -140,7 +140,7 @@
 .theme-midnight.visual-refresh.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
 .theme-midnight.visual-refresh.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
 .theme-midnight.visual-refresh.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 5%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 5%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -195,7 +195,7 @@
 
 /* Custom themes Light Hightlights */
 .theme-light.visual-refresh.custom-theme-background .mentioned__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), yellow 5%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), yellow 5%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -203,7 +203,7 @@
 .theme-light.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
 .theme-light.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
 .theme-light.visual-refresh.custom-theme-background.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 0%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 0%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -258,7 +258,7 @@
 
 /* Custom themes Dark Hightlights */
 .theme-dark.visual-refresh.custom-theme-background .mentioned__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 15%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 15%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -266,7 +266,7 @@
 .theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
 .theme-dark.visual-refresh.custom-theme-background.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
 .theme-dark.visual-refresh.custom-theme-background.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), white 13%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), white 13%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
