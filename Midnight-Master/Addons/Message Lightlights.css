@@ -14,7 +14,7 @@
 .theme-light.visual-refresh.mouse-mode.full-motion .message__5126c.mentioned__5126c:hover, 
 .theme-light.visual-refresh.mouse-mode.full-motion.visual-refresh .message__5126c.mentioned__5126c:hover, 
 .theme-light.visual-refresh.visual-refresh .message__5126c.mentioned__5126c.selected__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), yellow 0%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), yellow 0%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
