@@ -6,7 +6,7 @@
 }
 /* Light Hightlights */
 .theme-light.visual-refresh .mentioned__5126c {
-    background: color-mix(in srgb, var(--background-mentioned), yellow 5%);
+    background: color-mix(in srgb, var(--message-mentioned-background-default), yellow 5%);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
