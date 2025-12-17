@@ -21,7 +21,7 @@
 :root {
   --codeblock-height: 200px;
 }
-.codeContainer__75297 > code {
+._752971923a1e6683-codeContainer > code {
   max-height: var(--codeblock-height);
   overflow-y: scroll;
   &::-webkit-scrollbar {
