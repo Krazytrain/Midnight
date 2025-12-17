@@ -322,7 +322,6 @@
 /*Thread Highlights*/
 ._2ea32c412048f708-typeThread ._2ea32c412048f708-name {
     font-size: 16px;
-    color: var(--channels-default);
 }
 /* Rainbow Threads Dark Theme */
 .theme-dark ul[aria-label$=" threads"] > li:nth-child(1n) {
@@ -398,4 +397,3 @@
   --interactive-hover: #7a21e6b3;
   --interactive-active: #7a21e6b3;
 }
-
