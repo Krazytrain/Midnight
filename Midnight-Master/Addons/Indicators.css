@@ -61,4 +61,179 @@
   color: var(--indicator-selected-border);
 }
 .c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant),
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant) {
+  border-left-color: var(--indicator-unread-border);
+  background-color: var(--indicator-unread-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant):hover,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant):hover {
+  background-color: var(--indicator-unread-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant) ._2ea32c412048f708-unread,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant) ._2ea32c412048f708-unread {
+  display: none;
+}
+.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge),
+.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge) {
+  border-left-color: var(--indicator-unread-mention-border);
+  background-color: var(--indicator-unread-mention-background);
+}
+.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge):hover,
+.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge):hover {
+  background-color: var(--indicator-unread-mention-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge) ._2ea32c412048f708-link svg,
+.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge) ._2ea32c412048f708-link svg {
+  color: var(--indicator-unread-mention-border);
+}
 
+
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected),
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected) {
+  border-left-color: var(--indicator-connected-border);
+  background-color: var(--indicator-connected-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected):hover,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected):hover {
+  background-color: var(--indicator-connected-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected) ._2ea32c412048f708-link svg,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected) ._2ea32c412048f708-link svg {
+  color: var(--indicator-connected-border);
+}
+
+/*Server Guide, Events, Channels and role, members list*/
+._2ea32c412048f708-link._2ea32c412048f708-basicChannelRowLink:hover  {
+    background: none;
+}
+.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected {
+  border-left-color: var(--indicator-selected-border);
+  background-color: var(--indicator-selected-background) !important;
+}
+.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-link svg {
+  color: var(--indicator-selected-border);
+}
+._23e6b439306f125a-sidebar .aa8da23faa27393c-item.aa8da23faa27393c-selected  {
+  border-left: var(--indicator-border-size) solid var(--indicator-selected-border);
+  background-color: var(--indicator-selected-background) !important;
+}
+
+.c69b6db0641110f6-containerDefault ._5b40bdd67543ba35-container{
+    border-left: none;
+}
+.c69b6db0641110f6-containerDefault, .c69b6db0641110f6-containerDragBefore {
+    margin: 0px 0;
+    border-radius: var(--indicator-rounding);
+    border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+}
+._5b40bdd67543ba35-container .c69b6db0641110f6-containerDefault {
+    border: none;
+}
+
+.categoryItem_c72b37 {
+  margin: 2px 0;
+  padding-left: 8px;
+  border-radius: var(--indicator-rounding);
+  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+}
+.categoryItem_c72b37:hover {
+  background-color: var(--indicator-hover);
+}
+.categoryItem_c72b37:hover .itemInner_c72b37 {
+  background-color: transparent;
+}
+.categoryItem_c72b37._91a9d7f7e5248a56-selected {
+  border-left-color: var(--indicator-selected-border);
+  color: var(--interactive-active);
+  background-color: var(--indicator-selected-background);
+}
+.categoryItem_c72b37._91a9d7f7e5248a56-selected .itemInner_c72b37 {
+  background-color: transparent;
+}
+.categoryItem_c72b37._91a9d7f7e5248a56-selected svg {
+  color: var(--indicator-selected-border);
+}
+
+._972a0d22c8afa7f0-channel {
+  max-width: unset;
+  margin: 2px 0;
+  padding: 0 0 0 8px;
+  border-radius: var(--indicator-rounding);
+  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+}
+._972a0d22c8afa7f0-channel:hover {
+  background-color: var(--indicator-hover);
+}
+._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected) {
+  border-left-color: var(--indicator-selected-border);
+  background-color: var(--indicator-selected-background);
+}
+._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected):hover {
+  background-color: var(--indicator-selected-hover-background);
+}
+._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected) ._972a0d22c8afa7f0-linkButtonIcon{
+  color: var(--indicator-selected-border);
+}
+._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted) {
+  border-left-color: var(--indicator-unread-border);
+  background-color: var(--indicator-unread-background);
+}
+._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted):hover {
+  background-color: var(--indicator-unread-hover-background);
+}
+._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted) ._972a0d22c8afa7f0-linkButtonIcon {
+  color: var(--indicator-unread-border);
+}
+.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) {
+  border-left-color: var(--indicator-unread-border);
+  background-color: var(--indicator-unread-background);
+}
+.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32):hover {
+  background-color: var(--indicator-unread-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) ._2ea32c412048f708-icon, .c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) .c69b6db0641110f6-actionIcon {
+  color: var(--indicator-unread-border);
+}
+.modeUnreadLessImportant__2ea32 ._2ea32c412048f708-name{
+    color: var(--interactive-active)!important;
+}
+._2ea32c412048f708-unread{
+    display: none;
+}
+._972a0d22c8afa7f0-channel .bf202d63ad53e289-interactive {
+  background: transparent;
+}
+.bf202d63ad53e289-interactive._972a0d22c8afa7f0-interactive._972a0d22c8afa7f0-interactiveSelected.bf202d63ad53e289-selected{
+    background: var(--bg-overlay-selected,var(--background-modifier-selected));
+}
+.bf202d63ad53e289-interactive._972a0d22c8afa7f0-interactive:hover{
+    background: var(--bg-overlay-hover,var(--background-modifier-hover));
+}
+
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread){
+  border-left-color: var(--indicator-unread-border);
+  background-color: var(--indicator-unread-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread):hover,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread):hover {
+  background-color: var(--indicator-unread-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ._2ea32c412048f708-link svg,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ._2ea32c412048f708-link svg {
+  color: var(--indicator-unread-border);
+}
+
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant ) ,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant){
+  border-left-color: var(--indicator-unread-mention-border);
+  background-color: var(--indicator-unread-mention-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant):hover,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant):hover {
+  background-color: var(--indicator-unread-mention-hover-background);
+}
+.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant) ._2ea32c412048f708-link svg,
+.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant) ._2ea32c412048f708-link svg {
+  color: var(--indicator-unread-mention-border);
+}
