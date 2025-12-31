@@ -323,6 +323,10 @@
 ._2ea32c412048f708-typeThread ._2ea32c412048f708-name {
     font-size: 16px;
 }
+._5b40bdd67543ba35-container .c69b6db0641110f6-containerDefault{
+    color: transparent;
+    background-color: transparent;
+}
 /* Rainbow Threads Dark Theme */
 .theme-dark ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: rgba(243, 139, 168, 0.7);
