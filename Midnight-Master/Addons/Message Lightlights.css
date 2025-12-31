@@ -324,8 +324,8 @@
     font-size: 16px;
 }
 ._5b40bdd67543ba35-container .c69b6db0641110f6-containerDefault{
-    color: transparent;
-    background-color: transparent;
+    color: transparent!important;
+    background-color: transparent!important;
 }
 /* Rainbow Threads Dark Theme */
 .theme-dark ul[aria-label$=" threads"] > li:nth-child(1n) {
