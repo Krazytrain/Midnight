@@ -326,7 +326,7 @@
 .container__5b40b .containerDefault_c69b6d{
     color: transparent!important;
 }
-/* Rainbow Threads Dark Theme */
+/* Rainbow Threads Dark Theme *//*
 .theme-dark ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: rgba(243, 139, 168, 0.7);
   --text-primary: #f38ba8;
@@ -363,7 +363,7 @@
   --interactive-hover: #cba6f7;
   --interactive-active: #cba6f7;
 }
-/* Rainbow Threads Light Theme */
+/* Rainbow Threads Light Theme *//*
 .theme-light ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: rgba(190, 35, 164, 0.7);
   --text-primary: #be23a4;
