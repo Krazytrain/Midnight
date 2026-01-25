@@ -25,108 +25,108 @@
 }
 
 
-.bf202d63ad53e289-interactive._972a0d22c8afa7f0-interactive:hover{
+.interactive_bf202d.interactive__972a0:hover{
   background: none!important;
 }
 
-.c69b6db0641110f6-containerDefault,
-.c69b6db0641110f6-containerDragBefore {
+.containerDefault_c69b6d,
+.containerDragBefore_c69b6d {
   margin: 0px 0;
   border-radius: var(--indicator-rounding);
   border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-.c69b6db0641110f6-containerDefault ._2ea32c412048f708-link:not(._2ea32c412048f708-basicChannelRowLink),
-.c69b6db0641110f6-containerDragBefore ._2ea32c412048f708-link {
+.containerDefault_c69b6d .link__2ea32:not(.basicChannelRowLink__2ea32),
+.containerDragBefore_c69b6d .link__2ea32 {
   background: transparent !important;
 }
-.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper,
-.c69b6db0641110f6-containerDragBefore._2ea32c412048f708-wrapper {
+.containerDefault_c69b6d.wrapper__2ea32,
+.containerDragBefore_c69b6d.wrapper__2ea32 {
   padding-left: 8px;
 }
-.c69b6db0641110f6-containerDefault:hover,
-.c69b6db0641110f6-containerDragBefore:hover {
+.containerDefault_c69b6d:hover,
+.containerDragBefore_c69b6d:hover {
   background-color: var(--indicator-hover);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeSelected),
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeSelected) {
+.containerDefault_c69b6d:has(.modeSelected__2ea32),
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background) !important;
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeSelected):hover,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeSelected):hover {
+.containerDefault_c69b6d:has(.modeSelected__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32):hover {
   background-color: var(--indicator-selected-hover-background) !important;
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeSelected) ._2ea32c412048f708-link svg,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeSelected) ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg {
   color: var(--indicator-selected-border);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant),
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant) {
+.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32),
+.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant):hover,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant):hover {
+.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeUnreadImportant) ._2ea32c412048f708-unread,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeUnreadImportant) ._2ea32c412048f708-unread {
+.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32) .unread__2ea32,
+.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) .unread__2ea32 {
   display: none;
 }
-.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge),
-.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge) {
+.containerDefault_c69b6d:has(.mentionsBadge__933a1),
+.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) {
   border-left-color: var(--indicator-unread-mention-border);
   background-color: var(--indicator-unread-mention-background);
 }
-.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge):hover,
-.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge):hover {
+.containerDefault_c69b6d:has(.mentionsBadge__933a1):hover,
+.containerDragBefore_c69b6d:has(.mentionsBadge__933a1):hover {
   background-color: var(--indicator-unread-mention-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(._933a166a2ed4d49c-mentionsBadge) ._2ea32c412048f708-link svg,
-.c69b6db0641110f6-containerDragBefore:has(._933a166a2ed4d49c-mentionsBadge) ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg {
   color: var(--indicator-unread-mention-border);
 }
 
 
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected),
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected) {
+.containerDefault_c69b6d:has(.modeConnected__2ea32),
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32) {
   border-left-color: var(--indicator-connected-border);
   background-color: var(--indicator-connected-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected):hover,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected):hover {
+.containerDefault_c69b6d:has(.modeConnected__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32):hover {
   background-color: var(--indicator-connected-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected) ._2ea32c412048f708-link svg,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected) ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg {
   color: var(--indicator-connected-border);
 }
 
 /*Server Guide, Events, Channels and role, members list*/
-._2ea32c412048f708-link._2ea32c412048f708-basicChannelRowLink:hover  {
+.link__2ea32.basicChannelRowLink__2ea32:hover  {
     background: none;
 }
-.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected {
+.containerDefault_c69b6d.wrapper__2ea32.modeSelected__2ea32 {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background) !important;
 }
-.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d.wrapper__2ea32.modeSelected__2ea32 .link__2ea32 svg {
   color: var(--indicator-selected-border);
 }
-._23e6b439306f125a-sidebar .aa8da23faa27393c-item.aa8da23faa27393c-selected  {
+.sidebar__23e6b .item_aa8da2.selected_aa8da2  {
   border-left: var(--indicator-border-size) solid var(--indicator-selected-border);
   background-color: var(--indicator-selected-background) !important;
 }
 
-.c69b6db0641110f6-containerDefault ._5b40bdd67543ba35-container{
+.containerDefault_c69b6d .container__5b40b{
     border-left: none;
 }
-.c69b6db0641110f6-containerDefault, .c69b6db0641110f6-containerDragBefore {
+.containerDefault_c69b6d, .containerDragBefore_c69b6d {
     margin: 0px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-._5b40bdd67543ba35-container .c69b6db0641110f6-containerDefault {
+.container__5b40b .containerDefault_c69b6d {
     border: none;
 }
 
@@ -142,99 +142,99 @@
 .categoryItem_c72b37:hover .itemInner_c72b37 {
   background-color: transparent;
 }
-.categoryItem_c72b37._91a9d7f7e5248a56-selected {
+.categoryItem_c72b37.selected__91a9d {
   border-left-color: var(--indicator-selected-border);
   color: var(--interactive-active);
   background-color: var(--indicator-selected-background);
 }
-.categoryItem_c72b37._91a9d7f7e5248a56-selected .itemInner_c72b37 {
+.categoryItem_c72b37.selected__91a9d .itemInner_c72b37 {
   background-color: transparent;
 }
-.categoryItem_c72b37._91a9d7f7e5248a56-selected svg {
+.categoryItem_c72b37.selected__91a9d svg {
   color: var(--indicator-selected-border);
 }
 
-._972a0d22c8afa7f0-channel {
+.channel__972a0 {
   max-width: unset;
   margin: 2px 0;
   padding: 0 0 0 8px;
   border-radius: var(--indicator-rounding);
   border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-._972a0d22c8afa7f0-channel:hover {
+.channel__972a0:hover {
   background-color: var(--indicator-hover);
 }
-._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected) {
+.channel__972a0:has(.selected_bf202d) {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background);
 }
-._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected):hover {
+.channel__972a0:has(.selected_bf202d):hover {
   background-color: var(--indicator-selected-hover-background);
 }
-._972a0d22c8afa7f0-channel:has(.bf202d63ad53e289-selected) ._972a0d22c8afa7f0-linkButtonIcon{
+.channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0{
   color: var(--indicator-selected-border);
 }
-._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted) {
+.channel__972a0:has(.highlighted__20a53) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted):hover {
+.channel__972a0:has(.highlighted__20a53):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-._972a0d22c8afa7f0-channel:has(._20a53846fe2e8513-highlighted) ._972a0d22c8afa7f0-linkButtonIcon {
+.channel__972a0:has(.highlighted__20a53) .linkButtonIcon__972a0 {
   color: var(--indicator-unread-border);
 }
-.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) {
+.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32):hover {
+.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) ._2ea32c412048f708-icon, .c69b6db0641110f6-containerDefault:has(.modeUnreadLessImportant__2ea32) .c69b6db0641110f6-actionIcon {
+.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32) .icon__2ea32, .containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32) .actionIcon_c69b6d {
   color: var(--indicator-unread-border);
 }
-.modeUnreadLessImportant__2ea32 ._2ea32c412048f708-name{
+.modeUnreadLessImportant__2ea32 .name__2ea32{
     color: var(--interactive-active)!important;
 }
-._2ea32c412048f708-unread{
+.unread__2ea32{
     display: none;
 }
-._972a0d22c8afa7f0-channel .bf202d63ad53e289-interactive {
+.channel__972a0 .interactive_bf202d {
   background: transparent;
 }
-.bf202d63ad53e289-interactive._972a0d22c8afa7f0-interactive._972a0d22c8afa7f0-interactiveSelected.bf202d63ad53e289-selected{
+.interactive_bf202d.interactive__972a0.interactiveSelected__972a0.selected_bf202d{
     background: var(--bg-overlay-selected,var(--background-modifier-selected));
 }
-.bf202d63ad53e289-interactive._972a0d22c8afa7f0-interactive:hover{
+.interactive_bf202d.interactive__972a0:hover{
     background: var(--bg-overlay-hover,var(--background-modifier-hover));
 }
 
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread){
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32) ,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32){
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread):hover,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread):hover {
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ._2ea32c412048f708-link svg,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread) ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32) .link__2ea32 svg {
   color: var(--indicator-unread-border);
 }
 
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant ) ,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant){
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32 ) ,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32){
   border-left-color: var(--indicator-unread-mention-border);
   background-color: var(--indicator-unread-mention-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant):hover,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant):hover {
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32):hover {
   background-color: var(--indicator-unread-mention-hover-background);
 }
-.c69b6db0641110f6-containerDefault:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant) ._2ea32c412048f708-link svg,
-.c69b6db0641110f6-containerDragBefore:has(._2ea32c412048f708-modeConnected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant) ._2ea32c412048f708-link svg {
+.containerDefault_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeConnected__2ea32 .unread__2ea32.unreadImportant__2ea32) .link__2ea32 svg {
   color: var(--indicator-unread-mention-border);
 }
 
