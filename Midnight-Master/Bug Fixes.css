@@ -239,6 +239,7 @@ path[d^="M14.8 2.7 9 3.1V47h3.3c1.7 0 6.2.3 10 .7l6.7.6V2l-4.2"] {
   overflow: visible;
 }
 .channelTextArea_f75fb0 .textArea__74017 {
+    height: unset !important;
   > div {
     max-height: var(--custom-channel-textarea-text-area-max-height);
     overflow: hidden scroll;
