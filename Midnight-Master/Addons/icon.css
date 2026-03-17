@@ -5,6 +5,10 @@
 * @author krammeth
 * @website https://github.com/Krammeth
 */
+:root {
+  --server-tabs: true;
+  --dms-tabs: true;
+}
 
 @container style(--dms-tabs:true) {
     .scroller__99e7c[data-list-id^="private-channels-uid_"] {
@@ -266,4 +270,52 @@
             }
         }
     }
+}
+
+
+.containerDefault_c69b6d.wrapper__2ea32{
+    padding-left: 0px;
+    padding: 1px!important;
+}
+
+.containerDefault_c69b6d.wrapper__2ea32 {
+    border: 3px solid var(--indicator-unread-background)!important;
+    background-color: var(--indicator-unread-background) !important;
+    border-radius: var(--indicator-rounding)!important;
+}
+
+.containerDefault_c69b6d.wrapper__2ea32.modeSelected__2ea32 {
+    border: 3px solid var(--indicator-selected-border)!important;
+    background-color: var(--indicator-selected-background) !important;
+    border-radius: var(--indicator-rounding)!important;
+}
+
+
+
+
+.channel__972a0:not(.dm__972a0){
+  background-color: transparent!important;
+  border: none!important;
+}
+.channel__972a0:not(.dm__972a0).channel__972a0.container_e45859{
+  padding-left: 0px!important;
+  padding: 4px!important;
+}
+
+.channel__972a0.container_e45859 .interactive_bf202d.interactive__972a0.linkButton__972a0{
+    border: 3px solid var(--indicator-unread-background)!important;
+    background-color: var(--indicator-unread-background) !important;
+    border-radius: var(--indicator-rounding)!important;
+}
+
+.channel__972a0:has(.selected_bf202d) .interactive_bf202d.interactive__972a0.linkButton__972a0{
+    border: 3px solid var(--indicator-selected-border)!important;
+    background-color: var(--indicator-selected-background) !important;
+    border-radius: var(--indicator-rounding)!important;
+}
+
+.channel__972a0.container_e45859-  {
+  padding: 0px!important;
+  background-color: transparent;
+  border: none;
 }
