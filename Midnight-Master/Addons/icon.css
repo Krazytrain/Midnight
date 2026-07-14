@@ -12,11 +12,11 @@
 }
 
 .containerDefault_c69b6d.wrapper__2ea32.modeSelected__2ea32 {
-    border-left-color: transparent;
+    border-left-color: transparent !important;
     background-color: transparent !important;
 }
 .channel__972a0:has(.selected_f88cfd) {
-    border-left-color: transparent;
+    border-left-color: transparent !important;
     background-color: transparent !important;
 }
 
