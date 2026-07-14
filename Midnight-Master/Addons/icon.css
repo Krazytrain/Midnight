@@ -21,10 +21,10 @@
 }
 
 .containerDefault_c69b6d.wrapper__2ea32, .containerDragBefore_c69b6d.wrapper__2ea32, .channel__972a0.container_e45859 {
-    padding-left: 0px;
+    padding-left: 0px !important;
 }
 .familyCenterButtonContainer_e6b769{
-    display: none;
+    display: none !important;
 }
 
 @container style(--dms-tabs:true) {
