@@ -58,7 +58,7 @@
                         }
                     }
 
-                    &>.numberBadge__2b1f5 {
+                    &>.numberBadge__463b7 {
                         position: absolute;
                         left: 17.5px;
                         bottom: 0;
@@ -145,7 +145,7 @@
                                         display: unset; 
                                     }
 
-                                    &>.textBadge__2b1f5 {
+                                    &>.textBadge__463b7 {
                                         position: unset;
                                         transform: none;
                                     }
@@ -174,7 +174,7 @@
                                             display: unset; 
                                         }
 
-                                        &>.textBadge__2b1f5 {
+                                        &>.textBadge__463b7 {
                                             position: unset;
                                             transform: none;
                                         }
@@ -238,7 +238,7 @@
                                 background-color: var(--status-danger);
                             }
 
-                            &>.textBadge__2b1f5 {
+                            &>.textBadge__463b7 {
                                 position: absolute;
                                 bottom: 0;
                                 transform: scale(0.7);
@@ -299,24 +299,24 @@
   background-color: transparent!important;
   border: none!important;
 }
-.channel__972a0:not(.dm__972a0).channel__972a0.container_e45859{
+.channel__972a0:not(.dm__972a0).channel__972a0.container__23ba6{
   padding-left: 0px!important;
   padding: 4px!important;
 }
 
-.channel__972a0.container_e45859 .interactive_bf202d.interactive__972a0.linkButton__972a0{
+.channel__972a0.container__23ba6 .interactive_f88cfd.interactive__972a0.linkButton__972a0{
     border: 3px solid var(--indicator-unread-background)!important;
     background-color: var(--indicator-unread-background) !important;
     border-radius: var(--indicator-rounding)!important;
 }
 
-.channel__972a0:has(.selected_bf202d) .interactive_bf202d.interactive__972a0.linkButton__972a0{
+.channel__972a0:has(.selected_f88cfd) .interactive_f88cfd.interactive__972a0.linkButton__972a0{
     border: 3px solid var(--indicator-selected-border)!important;
     background-color: var(--indicator-selected-background) !important;
     border-radius: var(--indicator-rounding)!important;
 }
 
-.channel__972a0.container_e45859-  {
+.channel__972a0.container__23ba6-  {
   padding: 0px!important;
   background-color: transparent;
   border: none;
