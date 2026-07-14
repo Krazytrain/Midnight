@@ -299,12 +299,12 @@
   background-color: transparent!important;
   border: none!important;
 }
-.channel__972a0:not(.dm__972a0).channel__972a0.container__23ba6{
+.channel__972a0:not(.dm__972a0).channel__972a0.container_a244c3{
   padding-left: 0px!important;
   padding: 4px!important;
 }
 
-.channel__972a0.container__23ba6 .interactive_f88cfd.interactive__972a0.linkButton__972a0{
+.channel__972a0.container_a244c3 .interactive_f88cfd.interactive__972a0.linkButton__972a0{
     border: 3px solid var(--indicator-unread-background)!important;
     background-color: var(--indicator-unread-background) !important;
     border-radius: var(--indicator-rounding)!important;
@@ -316,7 +316,7 @@
     border-radius: var(--indicator-rounding)!important;
 }
 
-.channel__972a0.container__23ba6-  {
+.channel__972a0.container_a244c3-  {
   padding: 0px!important;
   background-color: transparent;
   border: none;
