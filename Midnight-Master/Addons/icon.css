@@ -6,6 +6,27 @@
 * @website https://github.com/Krammeth
 */
 
+:root {
+    --dms-tabs: true;
+    --server-tabs: true;
+}
+
+.containerDefault_c69b6d.wrapper__2ea32.modeSelected__2ea32 {
+    border-left-color: transparent;
+    background-color: transparent !important;
+}
+.channel__972a0:has(.selected_f88cfd) {
+    border-left-color: transparent;
+    background-color: transparent !important;
+}
+
+.containerDefault_c69b6d.wrapper__2ea32, .containerDragBefore_c69b6d.wrapper__2ea32, .channel__972a0.container_e45859 {
+    padding-left: 0px;
+}
+.familyCenterButtonContainer_e6b769{
+    display: none;
+}
+
 @container style(--dms-tabs:true) {
     .scroller__99e7c[data-list-id^="private-channels-uid_"] {
         scrollbar-width: 0;
@@ -165,7 +186,7 @@
                                     display: unset; 
                                 }
 
-                                &>.textBadge__463b7 {
+                                &>.textBadge__2b1f5 {
                                     position: unset;
                                     transform: none;
                                 }
@@ -192,7 +213,7 @@
                                         display: unset; 
                                     }
 
-                                    &>.textBadge__463b7 {
+                                    &>.textBadge__2b1f5 {
                                         position: unset;
                                         transform: none;
                                     }
@@ -252,7 +273,7 @@
                             background-color: var(--status-danger);
                         }
 
-                        &>.textBadge__463b7 {
+                        &>.textBadge__2b1f5 {
                             position: absolute;
                             bottom: 0;
                             transform: scale(0.7);
@@ -289,7 +310,7 @@
                             display: none;
                         }
 
-                        &>.textBadge__463b7 {
+                        &>.textBadge__2b1f5 {
                             position: absolute;
                             bottom: 0;
                             transform: scale(0.7);
