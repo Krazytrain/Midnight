@@ -177,9 +177,6 @@ path[d^="M14.8 2.7 9 3.1V47h3.3c1.7 0 6.2.3 10 .7l6.7.6V2l-4.2"] {
     margin-bottom: 8px;
 }
 /* Message spaces */
-.cozy_c19a55.wrapper_c19a55 {
-    padding-bottom: calc(var(--custom-message-spacing-vertical-container-cozy) + 8px)!important;
-}
 .group-spacing-16 .groupStart__5126c {
     --custom-group-spacing-start: 0.2rem!important;
     padding-top: 6px;
