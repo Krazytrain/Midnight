@@ -176,16 +176,7 @@ path[d^="M14.8 2.7 9 3.1V47h3.3c1.7 0 6.2.3 10 .7l6.7.6V2l-4.2"] {
     top: 3.2rem;
     margin-bottom: 8px;
 }
-/* Message spaces */
-.group-spacing-16 .groupStart__5126c {
-    --custom-group-spacing-start: 0.2rem!important;
-    padding-top: 6px;
-}
-.group-spacing-16 .divider__5126c.beforeGroup__5126c {
-    margin-bottom: 15px!important;
-    margin-top: 0!important;
-    top: .5rem!important;
-}
+
 /*Status Box*/
 .outer_ab8609.user-profile-popout::after, .outer_ab8609:before, .outer_ab8609.user-profile-modal::after, .outer_ab8609::before{
     display: none;
