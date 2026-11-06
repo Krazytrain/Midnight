@@ -22,7 +22,7 @@
     background-color: transparent !important;
 }
 
-.containerDefault_c69b6d.wrapper__2ea32, .containerDragBefore_c69b6d.wrapper__2ea32, .channel__972a0.container_e45859 {
+.containerDefault_c69b6d.wrapper__2ea32, .containerDragBefore_c69b6d.wrapper__2ea32, .channel__972a0.container__23ba6 {
     padding-left: 0px !important;
 }
 .familyCenterButtonContainer_e6b769{
@@ -188,7 +188,7 @@
                                     display: unset; 
                                 }
 
-                                &>.textBadge__2b1f5 {
+                                &>.textBadge__463b7 {
                                     position: unset;
                                     transform: none;
                                 }
@@ -215,7 +215,7 @@
                                         display: unset; 
                                     }
 
-                                    &>.textBadge__2b1f5 {
+                                    &>.textBadge__463b7 {
                                         position: unset;
                                         transform: none;
                                     }
@@ -275,7 +275,7 @@
                             background-color: var(--status-danger);
                         }
 
-                        &>.textBadge__2b1f5 {
+                        &>.textBadge__463b7 {
                             position: absolute;
                             bottom: 0;
                             transform: scale(0.7);
@@ -312,7 +312,7 @@
                             display: none;
                         }
 
-                        &>.textBadge__2b1f5 {
+                        &>.textBadge__463b7 {
                             position: absolute;
                             bottom: 0;
                             transform: scale(0.7);
