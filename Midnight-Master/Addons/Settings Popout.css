@@ -7,7 +7,7 @@
  {  position: static;
    overflow: hidden !important;
  opacity: 1 !important;}
-.layer__960e4 + .layer__960e4
+.layer_Fd0FEH + .layer_Fd0FEH
  { border-radius: 10px !important;
    box-shadow: 5px 5px 25px black !important;
    width: calc(100% - 100px);
@@ -18,7 +18,7 @@
    opacity: 1 !important;
    transform: 1125 !important;
  }
-.baseLayer__960e4[aria-hidden="true"]::after {
+.baseLayer_Fd0FEH[aria-hidden="true"]::after {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -28,20 +28,20 @@
   content: '';
   z-index: 100;
 }
-.layer__960e4[aria-hidden="false"] + .layer__960e4[aria-hidden="false"] {
+.layer_Fd0FEH[aria-hidden="false"] + .layer_Fd0FEH[aria-hidden="false"] {
   display: none
 }
-#app-mount .baseLayer__960e4 /*keep view under settings*/
+#app-mount .baseLayer_Fd0FEH /*keep view under settings*/
  { opacity: 1 !important;
    transform: scale(1) !important;
  }
-.baseLayer__960e4[aria-hidden="true"] {
+.baseLayer_Fd0FEH[aria-hidden="true"] {
    pointer-events: none;
 }
-.layers__960e4>.layer__960e4.animating__960e4 {
+.layers_Fd0FEH>.layer_Fd0FEH.animating_Fd0FEH {
   will-change: unset !important;
 }
-.platform-win .standardSidebarView__23e6b {
+.platform-win .standardSidebarView_jnk11m {
     top: 0px;
 }
 
